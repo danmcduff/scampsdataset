@@ -4,7 +4,8 @@ SCAMPS is a dataset of synthetics containing 2,800 videos (1.68M frames) with al
 
 It was introduced in our paper [**SCAMPS: Synthetics for Camera Measurement of Physiological Signals**](...).
 
-
+Synthetics have proven valuable in several areas of computer vision, particularly face and body analyses.
+However, creating high fidelity 3D assets for simulating many different facial appearances (e.g., bone structures, facial attributes, skin tones etc.) is time consuming and expensive. Therefore, in this paper we present a new dataset (\projectname) of high fidelity synthetic human simulations that will be made publicly available. These data are designed for the purposes of training and testing camera physiological measurement methods.
 
 ![An image showing frames of a video with line graphs below it showing synchronized physiological signals](images/waveforms.png)
 
