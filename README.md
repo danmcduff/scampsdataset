@@ -15,3 +15,29 @@ Our dataset contains:
 - ...
 
 
+## Downloading the Dataset
+
+...
+
+## Dataset Structure
+
+...
+
+## Disclaimer
+
+Some of our rendered faces may be close in appearance to the faces of real people.  Any such similarity is naturally unintentional, as it would be in a dataset of real images, where people may appear similar to others unknown to them.
+
+
+## Generalization to real data
+
+...
+
+
+## Citation
+
+If you use the SCAMPS Dataset your research, please cite the following [paper](LINK):
+
+
+```
+@misc{
+}
