@@ -16,6 +16,13 @@ Our dataset contains:
 - Groundtruth heart rate, breathing rate, interbeat intervals and heat rate variability
 
 
+![An image showing a single frame of video and a set of segmentation frames with different regions (e.g., hair, clothing, etc.) segmented](images/segmentation.png)
+
+## Creating the Dataset
+
+![An image of a system diagram which shows how the synthetic avatars were created. The base skin albedo is altered using the blood volume pulse signal and then clothing, hair and background are added](images/architecture.jpg)
+
+
 ## Downloading the Dataset
 
 The videos and labels (.mat format - 1TB) can be downloaded [here](...)
