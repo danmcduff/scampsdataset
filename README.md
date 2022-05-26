@@ -10,14 +10,21 @@ It was introduced in our paper [**SCAMPS: Synthetics for Camera Measurement of P
 
 
 Our dataset contains:
-- ...
-- ...
-- ...
+- 2,800 synthetic videos (1.68M frames)
+- Aligned cardiac and respiratory waveforms for all frames
+- Action unit labels for all frames
+- Groundtruth heart rate, breathing rate, interbeat intervals and heat rate variability
 
 
 ## Downloading the Dataset
 
-...
+The videos and labels (.mat format - 1TB) can be downloaded [here](...)
+
+The labels only (.mat format - ...) can be downloaded [here](...)
+
+The labels only (.csv format - ...) can be downloaded [here](...)
+
+
 
 ## Dataset Structure
 
