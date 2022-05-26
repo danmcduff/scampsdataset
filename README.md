@@ -28,7 +28,21 @@ The labels only (.csv format - ...) can be downloaded [here](...)
 
 ## Dataset Structure
 
+```
+dataset.zip
+├── ...         # Rendered images of the avatar - [ time , width , height , channel ]
+├── ...         # Segmentation images - [ time , width , height , channel ]
+├── ...         # ...
+```
+
+
+Reading the data example:
+
+```
+import h5py
+
 ...
+```
 
 ## Disclaimer
 
