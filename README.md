@@ -16,6 +16,8 @@ Our dataset contains:
 - Groundtruth heart rate, breathing rate, interbeat intervals and heat rate variability
 
 
+Each RGB frame is accompanied by segmentation masks beard, eyelashes, eyebrows, glasses, hair, skin and clothing.
+
 ![An image showing a single frame of video and a set of segmentation frames with different regions (e.g., hair, clothing, etc.) segmented](images/segmentation.png)
 
 ## Creating the Dataset
