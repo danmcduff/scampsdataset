@@ -4,6 +4,11 @@ SCAMPS is a dataset of synthetics containing 2,800 videos (1.68M frames) with al
 
 It was introduced in our paper [**SCAMPS: Synthetics for Camera Measurement of Physiological Signals**](...).
 
+
+
+![An image showing frames of a video with line graphs below it showing synchronized physiological signals](images/waveforms.png)
+
+
 Our dataset contains:
 - ...
 - ...
