@@ -9,6 +9,7 @@ However, creating high fidelity 3D assets for simulating many different facial a
 
 ![An image showing frames of a video with line graphs below it showing synchronized physiological signals](images/waveforms.png)
 
+## What the Dataset Contains
 
 Our dataset contains:
 - 2,800 synthetic videos (1.68M frames)
@@ -21,12 +22,12 @@ Each RGB frame is accompanied by segmentation masks beard, eyelashes, eyebrows, 
 
 ![An image showing a single frame of video and a set of segmentation frames with different regions (e.g., hair, clothing, etc.) segmented](images/segmentation.png)
 
-## Creating the Dataset
+## How the Dataset was Created
 
 ![An image of a system diagram which shows how the synthetic avatars were created. The base skin albedo is altered using the blood volume pulse signal and then clothing, hair and background are added](images/architecture.jpg)
 
 
-## Downloading the Dataset
+## How to Download the Dataset
 
 The videos and labels (.mat format - 1TB) can be downloaded [here](...)
 
@@ -36,7 +37,7 @@ The labels only (.csv format - ...) can be downloaded [here](...)
 
 
 
-## Dataset Structure
+## The Dataset Structure
 
 ```
 dataset.zip
