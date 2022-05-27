@@ -1,3 +1,7 @@
+# Camera Measurement of Physiology
+
+Camera physiological measurement is a rapidly growing field of computer vision and computational photography that leverages imaging devices, signal processing and machine learned models to perform non-contact recovery of vital physiological processes. Data plays an important role in both training and evaluating these models. However, generalization can be weak if the training data are not representative and systematic evaluation can be challenging if testing data do not contain the variations and diversity necessary.
+
 # The SCAMPS Dataset
 
 SCAMPS is a dataset of synthetics containing 2,800 videos (1.68M frames) with aligned cardiac and respiratory signals and facial action intensities. The RGB frames are provided alongside segmentation maps. 
@@ -7,7 +11,7 @@ It was introduced in our paper [**SCAMPS: Synthetics for Camera Measurement of P
 Synthetics have proven valuable in several areas of computer vision, particularly face and body analyses.
 However, creating high fidelity 3D assets for simulating many different facial appearances (e.g., bone structures, facial attributes, skin tones etc.) is time consuming and expensive. Therefore, in this paper we present a new dataset (\projectname) of high fidelity synthetic human simulations that will be made publicly available. These data are designed for the purposes of training and testing camera physiological measurement methods.
 
-![An image showing frames of a video with line graphs below it showing synchronized physiological signals](images/waveforms.png)
+<!--![An image showing frames of a video with line graphs below it showing synchronized physiological signals](images/waveforms.png)-->
 
 ## What the Dataset Contains
 
