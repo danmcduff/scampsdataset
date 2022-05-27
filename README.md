@@ -29,29 +29,34 @@ Each RGB frame is accompanied by segmentation masks beard, eyelashes, eyebrows, 
 
 ## How to Download the Dataset
 
-The videos and labels (.mat format - 1TB) can be downloaded [here](...)
+Small example of 10 video and labels (.mat format - 3GB) can be downloaded [here](...)
 
-The labels only (.mat format - ...) can be downloaded [here](...)
+The full set of videos and labels (.mat format - 1TB) can be downloaded [here](...)
 
-The labels only (.csv format - ...) can be downloaded [here](...)
+The full set of labels only (.mat format - ...) can be downloaded [here](...)
+
+The full set of labels only (.csv format - ...) can be downloaded [here](...)
 
 
 
 ## The Dataset Structure
 
 ```
-dataset.zip
-├── ...         # Rendered images of the avatar - [ time , width , height , channel ]
-├── ...         # Segmentation images - [ time , width , height , channel ]
-├── ...         # ...
+scamps_videos.tar.gz
+  PXXXXXX.mat
+  ├── RawFrames        # Rendered images of the avatar at 320 x 240 resolution - [ channel , width , height , time ]
+  ├── Xsub              # Center cropped images containing the face at 240 x 240 pixels - [ time , width , height , channel ]
+  ├── ...               # ...
 ```
 
+RawFrames', 'Xsub', 'au12', 'au15', 'au17', 'au18', 'au2', 'au26', 'au27', 'au4', 'au45', 'au7', 'combined_mask', 'd_br', 'd_ekg', 'd_pitch', 'd_ppg', 'd_roll', 'd_yaw', 'numerical_mask', 'skin_mask
 
 Reading the data example:
 
 ```
 import h5py
-
+f = h5py.File('P000001.mat', 'r')
+print(f.keys())
 ...
 ```
 
