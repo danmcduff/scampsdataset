@@ -41,7 +41,7 @@ The full set of labels only (.mat format - ...) can be downloaded [here](...)
 
 The full set of labels only (.csv format - ...) can be downloaded [here](...)
 
-
+A CSV file with official **Train**, **Validation** and **Test** splits [here](https://hueaml.blob.core.windows.net/scampsdatasetrelease/ScampsTrainTestSplit.csv)
 
 ## The Dataset Structure
 w = Image width, h = Image height, c = Channels, t = Time
