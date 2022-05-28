@@ -70,15 +70,12 @@ scamps_videos.tar.gz
   ├── au45              # Action Unit 45 (AU2) intensity                                   [ t ]
 ```
 
-RawFrames', 'Xsub', 'au12', 'au15', 'au17', 'au18', 'au2', 'au26', 'au27', 'au4', 'au45', 'au7', 'combined_mask', 'd_br', 'd_ekg', 'd_pitch', 'd_ppg', 'd_roll', 'd_yaw', 'numerical_mask', 'skin_mask
-
 Reading the data example:
 
 ```
 import h5py
 f = h5py.File('P000001.mat', 'r')
 print(f.keys())
-...
 ```
 
 ## Transparency and Broader Impacts
