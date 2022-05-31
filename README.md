@@ -93,7 +93,28 @@ Some of our rendered faces may be close in appearance to the faces of real peopl
 
 ## Generalization to Real Data
 
-We evaluate an ....
+It is natural to ask the question: "How well does a model trained on these synthetic data generalize to real videos?"  To provide a baseline we evaluated a neural model trained on the SCAMPS data on the UBFC () and PURE () datasets, more details can be found in our [paper](), but the highlevel results showed good performance on both dataset:
+
+**UBFC**
+
+Mean Abs. Error (beat/min):         xxx
+
+Root Mean Sq. Error (beat/min):     xxx
+
+Mean Abs. % Error (%):              xxx
+
+Pearson Corr.:                      xxx
+
+
+**PURE**
+
+Mean Abs. Error (beat/min):         xxx
+
+Root Mean Sq. Error (beat/min):     xxx
+
+Mean Abs. % Error (%):              xxx
+
+Pearson Corr.:                      xxx
 
 ## Code for Camera Physiology
 
