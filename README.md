@@ -39,7 +39,7 @@ Breathing causes several observable changes in the body. The most obvious usuall
 
 ## How to Download the Dataset:
 
-Small example of 10 video and labels (.mat format - 3GB) can be downloaded [here](...)
+Small example of 10 video and labels (.mat format - 1.2GB) can be downloaded [here](https://hueaml.blob.core.windows.net/scampsdatasetrelease/scamps_videos_example.tar.gz)
 
 The full set of videos and labels (.mat format - 600GB) can be downloaded [here](https://hueaml.blob.core.windows.net/scampsdatasetrelease/scamps_videos.tar.gz)
 
