@@ -11,6 +11,8 @@ It was introduced in our paper [**SCAMPS: Synthetics for Camera Measurement of P
 Synthetics have proven valuable in several areas of computer vision, particularly face and body analyses.
 However, creating high fidelity 3D assets for simulating many different facial appearances (e.g., bone structures, facial attributes, skin tones etc.) is time consuming and expensive. Therefore, in this paper we present a new dataset (\projectname) of high fidelity synthetic human simulations that will be made publicly available. These data are designed for the purposes of training and testing camera physiological measurement methods.
 
+Breathing causes several observable changes in the body. The most obvious usually being the motions of the chest and shoulders. Specifically, the pitch of the chest was rotated using the breathing input signal previously described. The rotation of the head was dampened slightly to create greater variance in the appearance changes and so that the breathing motions were largest in the chest and shoulders.
+
 <!--![An image showing frames of a video with line graphs below it showing synchronized physiological signals](images/waveforms.png)-->
 
 ## What the Dataset Contains:
