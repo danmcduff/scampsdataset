@@ -28,7 +28,9 @@ Each RGB frame is accompanied by segmentation masks beard, eyelashes, eyebrows, 
 
 ## How the Dataset was Created:
 
+The synthetic videos were created using a graphics pipeline. A key part of our work is a realistic model of facial blood flow. We simulate blood flow by adjusting properties of the physically-based shading material we use for the face (https://www.blender.org/).  The albedo component of the material is a texture map transferred from a high-quality 3D face scan. The facial hair has been removed from these textures by an artist so that the skin properties can be easily manipulated (3D hair can be added later in the process). Specular effects are controlled with an artist-created roughness map, to make some parts of the face (e.g. the lips) shinier than others.
 
+As blood flows through the skin, the composition of the skin changes and causes variations in subsurface color. We manipulate skin tone changes using the subsurface color parameters. The weights for this are derived from the absorption spectrum of hemoglobin and typical frequency bands from an exemplar digital camera (https://www.bnl.gov/atf/docs/scout-g_users_manual.pdf) (Red: 550-700 nm, Green: 400-650 nm, Blue: 350-550 nm).
 
 ![An image of a system diagram which shows how the synthetic avatars were created. The base skin albedo is altered using the blood volume pulse signal and then clothing, hair and background are added](images/architecture.jpg)
 
