@@ -49,7 +49,7 @@ The full set of labels only (.csv format - 60MB) can be downloaded [here](https:
 A CSV file with official **Train**, **Validation** and **Test** splits [here](https://hueaml.blob.core.windows.net/scampsdatasetrelease/ScampsTrainTest)
 
 ## The Dataset Structure:
-The dataset contains videos (RGB frames), time aligned waveforms (PPG) and summary metrics (e.g., heart/pulse rate).
+The dataset contains videos (RGB and segmentation frames), time aligned waveforms (e.g., PPG) and summary metrics (e.g., heart/pulse rate).
 
 ![An image showing frames of a video with line graphs below it showing synchronized physiological signals](images/waveforms.png)
 w = Image width, h = Image height, c = Channels, t = Time
