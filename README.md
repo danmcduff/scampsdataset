@@ -136,5 +136,9 @@ If you use the SCAMPS Dataset your research, please cite the following [paper](L
 
 
 ```
-@misc{
+@article{mcduff2022scamps,
+  title={SCAMPS: Synthetics for Camera Measurement of Physiological Signals},
+  author={McDuff, Daniel and Wander, Miah and Liu, Xin and Hill, Brian and Hernandez, Javier and Lester, Jonathan and Baltrusaitis, Tadas},
+  journal={},
+  year={2022}
 }
