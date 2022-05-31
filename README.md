@@ -11,7 +11,6 @@ It was introduced in our paper [**SCAMPS: Synthetics for Camera Measurement of P
 Synthetics have proven valuable in several areas of computer vision, particularly face and body analyses.
 However, creating high fidelity 3D assets for simulating many different facial appearances (e.g., bone structures, facial attributes, skin tones etc.) is time consuming and expensive. Therefore, in this paper we present a new dataset (\projectname) of high fidelity synthetic human simulations that will be made publicly available. These data are designed for the purposes of training and testing camera physiological measurement methods.
 
-<!--![An image showing frames of a video with line graphs below it showing synchronized physiological signals](images/waveforms.png)-->
 
 ## What the Dataset Contains:
 
@@ -50,6 +49,9 @@ The full set of labels only (.csv format - 60MB) can be downloaded [here](https:
 A CSV file with official **Train**, **Validation** and **Test** splits [here](https://hueaml.blob.core.windows.net/scampsdatasetrelease/ScampsTrainTest)
 
 ## The Dataset Structure:
+The dataset contains videos (RGB frames), time aligned waveforms (PPG) and summary metrics (e.g., heart/pulse rate).
+
+![An image showing frames of a video with line graphs below it showing synchronized physiological signals](images/waveforms.png)
 w = Image width, h = Image height, c = Channels, t = Time
 ```
 scamps_videos.tar.gz
