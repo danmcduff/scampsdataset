@@ -25,7 +25,7 @@ Each RGB frame is accompanied by segmentation masks beard, eyelashes, eyebrows, 
 
 
 
-![An image showing a single frame of video and a set of segmentation frames with different regions (e.g., hair, clothing, etc.) segmented](<img src="images/segmentation.png" width="800" height="40" />)
+![An image showing a single frame of video and a set of segmentation frames with different regions (e.g., hair, clothing, etc.) segmented](images/segmentation.png)
 
 ## How the Dataset was Created:
 
