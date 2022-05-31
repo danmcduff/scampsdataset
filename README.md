@@ -23,6 +23,8 @@ Our dataset contains:
 
 Each RGB frame is accompanied by segmentation masks beard, eyelashes, eyebrows, glasses, hair, skin and clothing.
 
+<img src="images/segmentation.png" width="200" height="400" />
+
 ![An image showing a single frame of video and a set of segmentation frames with different regions (e.g., hair, clothing, etc.) segmented](images/segmentation.png)
 
 ## How the Dataset was Created:
