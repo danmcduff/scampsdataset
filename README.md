@@ -13,7 +13,7 @@ However, creating high fidelity 3D assets for simulating many different facial a
 
 <!--![An image showing frames of a video with line graphs below it showing synchronized physiological signals](images/waveforms.png)-->
 
-## What the Dataset Contains
+## What the Dataset Contains:
 
 Our dataset contains:
 - 2,800 synthetic videos (1.68M frames)
@@ -26,12 +26,14 @@ Each RGB frame is accompanied by segmentation masks beard, eyelashes, eyebrows, 
 
 ![An image showing a single frame of video and a set of segmentation frames with different regions (e.g., hair, clothing, etc.) segmented](images/segmentation.png)
 
-## How the Dataset was Created
+## How the Dataset was Created:
+
+
 
 ![An image of a system diagram which shows how the synthetic avatars were created. The base skin albedo is altered using the blood volume pulse signal and then clothing, hair and background are added](images/architecture.jpg)
 
 
-## How to Download the Dataset
+## How to Download the Dataset:
 
 Small example of 10 video and labels (.mat format - 3GB) can be downloaded [here](...)
 
@@ -43,7 +45,7 @@ The full set of labels only (.csv format - 60MB) can be downloaded [here](https:
 
 A CSV file with official **Train**, **Validation** and **Test** splits [here](https://hueaml.blob.core.windows.net/scampsdatasetrelease/ScampsTrainTest)
 
-## The Dataset Structure
+## The Dataset Structure:
 w = Image width, h = Image height, c = Channels, t = Time
 ```
 scamps_videos.tar.gz
@@ -78,7 +80,7 @@ f = h5py.File('P000001.mat', 'r')
 print(f.keys())
 ```
 
-## Transparency and Broader Impacts
+## Transparency and Broader Impacts:
 
 This dataset was created for research and experimentation on camera measurement of physiological signals. While the dataset is useful for testing models, is not designed as a test set for evaluating the clinical efficacy of a model, just because a model performs well on synthetic data does not mean it will generalize to videos of real people.
 
@@ -86,12 +88,12 @@ The SCAMPS dataset was not designed for computer vision tasks such as face recog
 
 Advantages of camera physiological measurement are that contact with the body is not required and that cameras are ubiquitous sensors. However, these advantages can cause problems. Unobtrusive measurement from small, ubiquitous sensors makes measurement without a subject's knowledge simpler. 
 
-## Disclaimer
+## Disclaimer:
 
 Some of our rendered faces may be close in appearance to the faces of real people.  Any such similarity is naturally unintentional, as it would be in a dataset of real images, where people may appear similar to others unknown to them.
 
 
-## Generalization to Real Data
+## How does the Synthetics Generalize to Real Data:
 
 It is natural to ask the question: "How well does a model trained on these synthetic data generalize to real videos?"  To provide a baseline we evaluated a neural model trained on the SCAMPS data on the UBFC () and PURE () datasets, more details can be found in our [paper](), but the highlevel results showed good performance on both dataset:
 
