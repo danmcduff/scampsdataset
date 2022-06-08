@@ -107,24 +107,20 @@ It is natural to ask the question: "How well does a model trained on these synth
 
 **UBFC**
 
-Mean Abs. Error (beat/min):         xxx
+Mean Abs. Error (beat/min):         5.42     
 
-Root Mean Sq. Error (beat/min):     xxx
+Root Mean Sq. Error (beat/min):     13.1
 
-Mean Abs. % Error (%):              xxx
-
-Pearson Corr.:                      xxx
+Pearson Corr.:                      0.72
 
 
 **PURE**
 
-Mean Abs. Error (beat/min):         xxx
+Mean Abs. Error (beat/min):         4.59
 
-Root Mean Sq. Error (beat/min):     xxx
+Root Mean Sq. Error (beat/min):     8.89
 
-Mean Abs. % Error (%):              xxx
-
-Pearson Corr.:                      xxx
+Pearson Corr.:                      0.81
 
 ## Code for Camera Physiology
 
