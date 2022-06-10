@@ -128,13 +128,13 @@ https://github.com/danmcduff/iphys-toolbox
 
 ## Citation
 
-If you use the SCAMPS Dataset your research, please cite the following [paper](LINK):
+If you use the SCAMPS Dataset your research, please cite the following [paper](https://arxiv.org/abs/2206.04197):
 
 
 ```
 @article{mcduff2022scamps,
   title={SCAMPS: Synthetics for Camera Measurement of Physiological Signals},
   author={McDuff, Daniel and Wander, Miah and Liu, Xin and Hill, Brian and Hernandez, Javier and Lester, Jonathan and Baltrusaitis, Tadas},
-  journal={},
+  journal={arXiv:2206.04197},
   year={2022}
 }
