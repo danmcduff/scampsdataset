@@ -6,7 +6,7 @@ Camera physiological measurement is a rapidly growing field of computer vision a
 
 SCAMPS is a dataset of synthetics containing 2,800 videos (1.68M frames) with aligned cardiac and respiratory signals and facial action intensities. The RGB frames are provided alongside segmentation maps. 
 
-It was introduced in our paper [**SCAMPS: Synthetics for Camera Measurement of Physiological Signals**](...).
+It was introduced in our paper [**SCAMPS: Synthetics for Camera Measurement of Physiological Signals**](https://arxiv.org/abs/2206.04197).
 
 Synthetics have proven valuable in several areas of computer vision, particularly face and body analyses.
 However, creating high fidelity 3D assets for simulating many different facial appearances (e.g., bone structures, facial attributes, skin tones etc.) is time consuming and expensive. Therefore, in this paper we present a new dataset (\projectname) of high fidelity synthetic human simulations that will be made publicly available. These data are designed for the purposes of training and testing camera physiological measurement methods.
@@ -103,7 +103,7 @@ Some of our rendered faces may be close in appearance to the faces of real peopl
 
 ## How does the Synthetics Generalize to Real Data:
 
-It is natural to ask the question: "How well does a model trained on these synthetic data generalize to real videos?"  To provide a baseline we evaluated a neural model trained on the SCAMPS data on the UBFC () and PURE () datasets, more details can be found in our [paper](), but the highlevel results showed good performance on both dataset:
+It is natural to ask the question: "How well does a model trained on these synthetic data generalize to real videos?"  To provide a baseline we evaluated a neural model trained on the SCAMPS data on the [UBFC](https://sites.google.com/view/ybenezeth/ubfcrppg) and [PURE](https://www.tu-ilmenau.de/universitaet/fakultaeten/fakultaet-informatik-und-automatisierung/profil/institute-und-fachgebiete/institut-fuer-technische-informatik-und-ingenieurinformatik/fachgebiet-neuroinformatik-und-kognitive-robotik/data-sets-code/pulse-rate-detection-dataset-pure) datasets, more details can be found in our [paper](https://arxiv.org/abs/2206.04197), but the highlevel results showed good performance on both dataset:
 
 **UBFC**
 
