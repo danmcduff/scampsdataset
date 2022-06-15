@@ -13,6 +13,7 @@ However, creating high fidelity 3D assets for simulating many different facial a
 
 ![Alt Text](videos/P000500.gif)
 ![Alt Text](videos/P000520.gif)
+![Alt Text](videos/P000510.gif)
 
 ## What the Dataset Contains:
 
