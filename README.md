@@ -11,7 +11,7 @@ It was introduced in our paper [**SCAMPS: Synthetics for Camera Measurement of P
 Synthetics have proven valuable in several areas of computer vision, particularly face and body analyses.
 However, creating high fidelity 3D assets for simulating many different facial appearances (e.g., bone structures, facial attributes, skin tones etc.) is time consuming and expensive. Therefore, in this paper we present a new dataset (\projectname) of high fidelity synthetic human simulations that will be made publicly available. These data are designed for the purposes of training and testing camera physiological measurement methods.
 
-![A GIF showing an images of a synthetic avatar that is rotating its head from left to right.](videos/P000500.gif | width=100))
+<img src="videos/P000500.gif" width="90%" height="90%"/>
 ![A GIF showing an images of a synthetic avatar that is rotating its head from left to right.](videos/P000520.gif | width=100))
 ![A GIF showing an images of a synthetic avatar that is rotating its head from left to right.](videos/P000510.gif | width=100))
 
