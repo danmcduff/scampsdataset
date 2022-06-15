@@ -14,6 +14,7 @@ However, creating high fidelity 3D assets for simulating many different facial a
 ![A GIF showing an images of a synthetic avatar that is rotating its head from left to right.](videos/P000500.gif)
 ![A GIF showing an images of a synthetic avatar that is rotating its head from left to right.](videos/P000520.gif)
 ![A GIF showing an images of a synthetic avatar that is rotating its head from left to right.](videos/P000510.gif)
+![A GIF showing an images of a synthetic avatar that is rotating its head from left to right.](videos/P000505.gif)
 <!--<img src="videos/P000500.gif" width="30%" height="30%"/>
 <img src="videos/P000520.gif" width="30%" height="30%"/>
 <img src="videos/P000510.gif" width="30%" height="30%"/>-->
