@@ -12,6 +12,7 @@ Synthetics have proven valuable in several areas of computer vision, particularl
 However, creating high fidelity 3D assets for simulating many different facial appearances (e.g., bone structures, facial attributes, skin tones etc.) is time consuming and expensive. Therefore, in this paper we present a new dataset (\projectname) of high fidelity synthetic human simulations that will be made publicly available. These data are designed for the purposes of training and testing camera physiological measurement methods.
 
 ![Alt Text](videos/P000500.gif)
+![Alt Text](videos/P000520.gif)
 
 ## What the Dataset Contains:
 
