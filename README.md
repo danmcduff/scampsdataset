@@ -131,7 +131,9 @@ Pearson Corr.:                      0.81
 
 ## Code for Camera Physiology
 
-https://github.com/danmcduff/iphys-toolbox
+The [rPPG-Toolbox](https://github.com/ubicomplab/rPPG-Toolbox) is the easiest place to start to train models on the SCAMPS dataset. This toolbox provides training and evaluation code. 
+
+If you are working on MATLAB a few rPPG methods are implemented in the [iPhys-Toolbox](https://github.com/danmcduff/iphys-toolbox) but these are limited to unsupervised methods.
 
 ## Citation
 
