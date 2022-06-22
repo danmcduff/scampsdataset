@@ -95,6 +95,8 @@ f = h5py.File('P000001.mat', 'r')
 print(f.keys())
 ```
 
+The groundtruth heart rate frequencies for the videos can be found in the label mat files.  So the frequencies do not need to be computed from the PPG waveforms. 
+
 ## Transparency and Broader Impacts:
 
 This dataset was created for research and experimentation on camera measurement of physiological signals. While the dataset is useful for testing models, is not designed as a test set for evaluating the clinical efficacy of a model, just because a model performs well on synthetic data does not mean it will generalize to videos of real people.
