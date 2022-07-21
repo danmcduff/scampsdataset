@@ -55,7 +55,7 @@ The full set of labels only (.mat format - 500MB) can be downloaded [here](https
 
 The full set of labels only (.csv format - 60MB) can be downloaded [here](https://hueaml.blob.core.windows.net/scampsdatasetrelease/scamps_waveforms_csv.tar.gz)
 
-A CSV file with official **Train**, **Validation** and **Test** splits [here](https://hueaml.blob.core.windows.net/scampsdatasetrelease/ScampsTrainTest)
+A CSV file with official **Train**, **Validation** and **Test** splits [here](https://hueaml.blob.core.windows.net/scampsdatasetrelease/ScampsTrainTest.csv)
 
 ## The Dataset Structure:
 The dataset contains videos (RGB and segmentation frames), time aligned waveforms (e.g., PPG) and summary metrics (e.g., heart/pulse rate).
