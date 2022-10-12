@@ -1,5 +1,7 @@
 # Camera Measurement of Physiology
 
+* ACCEPTED TO NeurIPS 2022 *
+
 Camera physiological measurement is a rapidly growing field of computer vision and computational photography that leverages imaging devices, signal processing and machine learned models to perform non-contact recovery of vital physiological processes. Data plays an important role in both training and evaluating these models. However, generalization can be weak if the training data are not representative and systematic evaluation can be challenging if testing data do not contain the variations and diversity necessary.
 
 # The SCAMPS Dataset
