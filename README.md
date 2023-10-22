@@ -51,15 +51,20 @@ Breathing causes several observable changes in the body. The most obvious usuall
 
 ## How to Download the Dataset:
 
-Small example of 10 video and labels (.mat format - 1.2GB) can be downloaded [here](https://hueaml.blob.core.windows.net/scampsdatasetrelease/scamps_videos_example.tar.gz)
+Small example of 10 video and labels (.mat format - 1.2GB) can be downloaded [here](https://facesyntheticspubwedata.blob.core.windows.net/neurips-2022/scamps_videos_example.tar.gz)
+[comment]: <> https://hueaml.blob.core.windows.net/scampsdatasetrelease/scamps_videos_example.tar.gz)
 
-The full set of videos and labels (.mat format - 600GB) can be downloaded [here](https://hueaml.blob.core.windows.net/scampsdatasetrelease/scamps_videos.tar.gz)
+The full set of videos and labels (.mat format - 600GB) can be downloaded [here](https://facesyntheticspubwedata.blob.core.windows.net/neurips-2022/scamps_videos.tar.gz)
+[comment]: <> https://hueaml.blob.core.windows.net/scampsdatasetrelease/scamps_videos.tar.gz)
 
-The full set of labels only (.mat format - 500MB) can be downloaded [here](https://hueaml.blob.core.windows.net/scampsdatasetrelease/scamps_waveforms.tar.gz)
+The full set of labels only (.mat format - 500MB) can be downloaded [here](https://facesyntheticspubwedata.blob.core.windows.net/neurips-2022/scamps_waveforms.tar.gz)
+[comment]: <> https://hueaml.blob.core.windows.net/scampsdatasetrelease/scamps_waveforms.tar.gz)
 
-The full set of labels only (.csv format - 60MB) can be downloaded [here](https://hueaml.blob.core.windows.net/scampsdatasetrelease/scamps_waveforms_csv.tar.gz)
+The full set of labels only (.csv format - 60MB) can be downloaded [here](https://facesyntheticspubwedata.blob.core.windows.net/neurips-2022/scamps_waveforms_csv.tar.gz)
+[comment]: <> https://hueaml.blob.core.windows.net/scampsdatasetrelease/scamps_waveforms_csv.tar.gz)
 
-A CSV file with official **Train**, **Validation** and **Test** splits [here](https://hueaml.blob.core.windows.net/scampsdatasetrelease/ScampsTrainTestSplit.csv)
+A CSV file with official **Train**, **Validation** and **Test** splits [here](https://facesyntheticspubwedata.blob.core.windows.net/neurips-2022/ScampsTrainTestSplit.csv)
+[comment]: <> https://hueaml.blob.core.windows.net/scampsdatasetrelease/ScampsTrainTestSplit.csv)
 
 ## The Dataset Structure:
 The dataset contains videos (RGB and segmentation frames), time aligned waveforms (e.g., PPG) and summary metrics (e.g., heart/pulse rate).
